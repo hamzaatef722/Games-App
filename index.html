@@ -1,0 +1,192 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+
+    <link rel="stylesheet" href="./css/all.min.css">
+    <link rel="stylesheet" href="./css/bootstrap.min.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <title>Games</title>
+</head>
+
+<body>
+
+    <!-- top -->
+    <header id="main-header">
+        <img src="./img/wraper.png" class="w-100" alt="">
+    </header>
+    <!-- navBar -->
+    <nav id="navbar" class="navbar p-3 mb-4 d-flex justify-content-center navbar-expand-lg z-3  my-nav position-relative">
+        <div class="container bg-danger position-absolute w-75 text-uppercase fw-lighter ">
+            <a class="navbar-brand text-white" href="#home">
+                <img src="./img/logo-sm.png" class="img-fluid w-25" alt="">
+                game reviewe
+            </a>
+            <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
+                data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
+                aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+
+            <div class="collapse navbar-collapse" id="navbarSupportedContent">
+                <ul class="navbar-nav ms-auto  mb-lg-0 ">
+                    <li role="button" class="nav-item text-white">
+                        <a id="home" category-id="mmorpg" class="nav-category active-category"
+                            aria-current="page">mmorpg</a>
+                    </li>
+                    <li role="button" class="">
+                        <a class="nav-category " category-id="shooter">shooter</a>
+                    </li>
+                    <li role="button" class="">
+                        <a class="nav-category " category-id="sailing">sailing</a>
+                    </li>
+                    <li role="button" class="">
+                        <a class="nav-category " category-id="permadeath">permadeath</a>
+                    </li>
+                    <li role="button" class="">
+                        <a class="nav-category " category-id="superhero">superhero</a>
+                    </li>
+                    <li role="button" class="">
+                        <a class="nav-category " category-id="pixel">pixel</a>
+                    </li>
+                </ul>
+
+            </div>
+        </div>
+    </nav>
+    <!-- games section -->
+    <main class="py-5">
+        <section id="games" class="py-5">
+            <div class="container">
+                <div id="games-display" class="row gy-4">
+                    <!-- <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/thumbnail.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span class="fw-bold">name</span>
+                                    <span class="badge bg-info text-white">free</span>
+                                </div>
+                                <p class="card-text text-center">Some quick example text to build on the .</p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between">
+                                <div>Category</div>
+                                <div>Device</div>
+                            </div>
+                        </div>
+
+                    </div> -->
+                    <!-- <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/thumbnail.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span class="fw-bold">name</span>
+                                    <span class="badge bg-info text-white">free</span>
+                                </div>
+                                <p class="card-text text-center">Some quick example text to build on the .</p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between">
+                                <div>Category</div>
+                                <div>Device</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                        <div class="card d-flex flex-column" style="width: 18rem;">
+                            <img src="./img/thumbnail.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span class="fw-bold">name</span>
+                                    <span class="badge bg-info text-white">free</span>
+                                </div>
+                                <p class="card-text text-center">ld on the .</p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between">
+                                <div>Category</div>
+                                <div>Device</div>
+                            </div>
+                        </div>
+
+                    </div>
+                    <div class="col-sm-6 col-md-4 col-lg-3 d-flex justify-content-center">
+                        <div class="card" style="width: 18rem;">
+                            <img src="./img/thumbnail.jpg" class="card-img-top" alt="...">
+                            <div class="card-body">
+                                <div class="d-flex justify-content-between align-items-center mb-2">
+                                    <span class="fw-bold">name</span>
+                                    <span class="badge bg-info text-white">free</span>
+                                </div>
+                                <p class="card-text text-center">Some quick example text to build on the .</p>
+                            </div>
+                            <div class="card-footer d-flex justify-content-between">
+                                <div>Category</div>
+                                <div>Device</div>
+                            </div>
+                        </div>
+
+                    </div> -->
+                </div>
+            </div>
+        </section>
+    </main>
+    <!-- details section -->
+    <section id="details" class="d-none py-4">
+        <div class="container">
+            <header class="d-flex justify-content-between">
+                <h2>Details Game</h2>
+                <span id="close-btn" role="button">
+                    <i class="fa fa-close fa-2x"></i>
+                </span>
+            </header>
+            <div id="details-display" class="row g-4">
+                <!-- <div class="col-md-4">
+                    <img src="./img/thumbnail.jpg" class="img-fluid" alt="">
+                </div>
+                <div class="col-md-8">
+                    <h3>Title: Tarisland</h3>
+                    <p>
+                        <span>Category: </span>
+                        <span class="details-info text-center text-bg-info"> MMORPG</span>
+                    </p>
+                    <p>
+                        <span>Platform: </span>
+                        <span class="details-info text-center text-bg-info"> Windows</span>
+                    </p>
+                    <p>
+                        <span>Status: </span>
+                        <span class="details-info text-center text-bg-info"> Live</span>
+                    </p>
+                    <p class="small">Tarisland is a free-to-play cross-platform MMORPG developed by Level Infinite and Published by
+                        Tencent.
+
+                        Available on PC and mobile devices, the game allows players to easily move between both, taking
+                        the game with them when they can’t be at their desk. The game is designed to appeal to players
+                        of MMOs like World of Warcraft, offering players nine playable classes and 18 specializations.
+
+                        Each class features an extensive talent tree system and can be customized. Players of existing
+                        MMOs will be familiar with the standard tank, DPS, and healer lineup, necessary for the game’s
+                        classic raid and dungeon system. Explore a vast game world and solve mysteries. Pick up various
+                        trades such as gathering, mining, and crafting, and sell your items on the auction house.</p>
+                        <a class="btn btn-outline-warning text-white" target="_blank" href="">Show Game</a>
+                </div> -->
+            </div>
+        </div>
+    </section>
+    <!-- loader -->
+    <section id="loader"
+        class="vh-100 w-100  justify-content-center align-items-center position-fixed end-0 start-0 bottom-0 top-0">
+        <span class="loader"></span>
+    </section>
+    <script src="./js/bootstrap.bundle.min.js"></script>
+    <script src="./js/Jquery.js"></script>
+    <script src="./js/index.js" type="module"></script>
+</body>
+
+</html>
